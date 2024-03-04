@@ -1,0 +1,65 @@
+body
+{
+
+    background-color: red ; /* Specify the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+h1
+{
+ background-color: rgba(141, 6, 237, 0.929);
+}
+#emo,h2,h5
+{
+ background-color: white;
+ text-align: center;
+}
+.title,.multi-column
+{
+ background-image: url(d2.jpeg);
+ column-count: 3;  
+ column-gap: 20px;
+
+}
+*
+{
+ color: #000; 
+}
+table,td,tr
+{
+    border: 6px solid black;
+    background-image: url();
+    background-color: bisque;
+    border-radius: 2%;
+    
+}
+td
+{
+    border: 3px solid black;
+    background-color: blue;
+    padding-left: 100px;
+}
+.multi-column
+    {
+      column-count: 3;  
+      column-gap: 20px;
+    }
+    .container {
+        background-image: url('d1.jpeg'); /* Specify the path to your image */
+        background-size: cover; /* Cover the entire background */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+        padding: 20px; /* Add some padding to the container for spacing */
+      }
+    
+form {
+        background-color: rgba(255, 255, 255, 0.4); /* Set a semi-transparent background color for the form */
+        padding: 10px; /* Add some padding to the form for spacing */
+        border-radius: 10px; /* Add border radius for rounded corners */
+        background-size: contain;
+      }
+table
+{
+background-image: url(bac.jpeg);
+}
